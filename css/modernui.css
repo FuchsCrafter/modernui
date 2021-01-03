@@ -1,0 +1,82 @@
+/*
+ * modernui.css
+ * 
+ * Copyright 2021  FuchsCrafter fuchscrafter.de
+ *
+ */
+ 
+html {
+	background-color: black;
+}
+
+body {
+	font: normal 16px "Segoe UI", Calibri;
+	color: white;
+	margin: 12px;
+}
+
+.phone {
+	width: 320px;
+}
+
+h1 {
+	font-size: 48px;
+	font-weight: 300;
+	padding-left: 8px;
+	margin-left: 4px;
+}
+
+h2 {
+	font-size: 38px;
+	font-weight: 300;
+	padding-left: 8px;
+	margin-left: 4px;
+}
+
+a {
+	color: white;
+	text-decoration: none
+}
+
+.text-floating {
+	text-shadow: 3px 5px 2px #474747, 2px 2px 2px rgba(206,89,55,0);
+	color: #FFFFFF;
+	/* background: #007094; */
+}
+
+.tile {
+	display: block;
+	background-color: #007094;
+	margin: 12px;
+	float: left;
+}
+
+.tile.tile-shadow {
+	-webkit-box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(0,0,0,0); 
+	box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(0,0,0,0);
+	background: #007094;
+}
+
+.tile.color2 {
+	background-color: #00B3ED;
+}
+
+.tile.x1 {
+	width: 66px;
+}
+
+.tile.x2 {
+	width: 140px;
+}
+
+tile.x4 {
+	width: 320px;
+}
+
+.tile.y1 {
+	height: 66px;
+}
+
+.tile.y2 {
+	height: 140px;
+}
