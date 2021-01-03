@@ -29,8 +29,22 @@ Here are the docs:
 ### classes
 embed it with class="CLASSNAME"
 - phone
-- - a class for testing it on phones
+- -    a class for testing it on phones, not in the minified version
 - text-floating
-- - a class for a floating effect, not in the minified version; only for WebKit browsers (like chrome, firefox, or internet explorer 10+)
+- -    a class for a floating effect, not in the minified version; only for WebKit browsers (like chrome, firefox, or internet explorer 10+)
 - tile
-- - adds a box for the element
+ - -   adds a box for the element, mor information below
+### tile class docs
+Syntax:
+```html
+<section class="tile attribute1 attribute2 attribute3 ...">
+```
+Attributes:
+- x{X}
+- -  width of an element; replace {X} with 1,2 or 4
+- y{Y}
+- -  height of an element; replace {Y} with 1 or 2
+- tile-shadow
+- -  adds an shadow to the tile; doesnt exist in the minified version
+- color2
+- -  an other color for the tile; doesnt exist in the minified version
