@@ -4,13 +4,15 @@
  * Copyright 2021  FuchsCrafter fuchscrafter.de
  *
  */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
  
 html {
 	background-color: black;
 }
 
 body {
-	font: normal 16px "Segoe UI", Calibri;
+	font-family: 'Lato', sans-serif;
 	color: white;
 	margin: 12px;
 }
