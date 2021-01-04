@@ -48,6 +48,7 @@ Attributes:
 - -  adds an blue shadow to the tile; doesnt exist in the minified version
 - tile-greenshadow
 - - adds an green shadow to the tile; doesnt exist in the minified version
+
 Color attributes
 - lightblue
 - green
