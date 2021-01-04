@@ -1,5 +1,5 @@
 # modernui
-Modernui is a css3 template that makes it easier and faster to develop webapps. It was inspired by the Windows phone.
+Modernui is a css3 framework that makes it easier and faster to develop webapps. It was inspired by the Windows phone.
 ## How to use / geting startet
 Just look in the demo.html file to get startet with the full version, or look in the demo-for-minified.html to get startet with the minified version.
 To embed the full version, add this thing in your head section:
