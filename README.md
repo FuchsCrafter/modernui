@@ -45,6 +45,11 @@ Attributes:
 - y{Y}
 - -  height of an element; replace {Y} with 1 or 2
 - tile-shadow
-- -  adds an shadow to the tile; doesnt exist in the minified version
-- color2
-- -  an other color for the tile; doesnt exist in the minified version
+- -  adds an blue shadow to the tile; doesnt exist in the minified version
+- tile-greenshadow
+- - adds an green shadow to the tile; doesnt exist in the minified version
+Color attributes
+- lightblue
+- green
+- red
+- yellow
