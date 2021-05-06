@@ -1,13 +1,13 @@
 # modernui
 Modernui is a css3 framework that makes it easier and faster to develop webapps. It was inspired by the Windows phone.
 ## How to use / geting startet
-Just look in the demo.html file to get startet with the full version, or look in the demo-for-minified.html to get startet with the minified version.
+Just look in the demo.html file to get startet with the full version, or look in the demo-for-minified.html to get startet with the minified version. 
 To embed the full version, add this thing in your head section:
 ```html
 <link rel="stylesheet" href="./css/modernui.css">
 ```
 
-To embed the minified version, just linking the file like that:
+To embed the minified version, just link the file like that:
 
 ```html
 <link rel="stylesheet" href="./css/modernui.min.css">
