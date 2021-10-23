@@ -1,0 +1,170 @@
+/*
+ * modernui.css
+ * 
+ * Copyright 2021  FuchsCrafter fuchscrafter.de
+ *
+ */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+ 
+$main-color: #007094; 
+$color-green: #fff;
+
+html {
+    background-color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', Calibri, sans-serif;
+    color: white;
+    margin: 12px;
+    display: flex;
+    height: 100%;
+    width: 80vw;
+    flex-flow: wrap;
+    justify-content: space-around;
+    gap: 5px 5px;
+
+}
+
+
+
+.tile {
+    width: 100px;  /* Or whatever */
+    height: 100px; /* Or whatever */
+    margin: 10px;  /* Magic! */
+    padding: 10px;
+    display: block;
+    background-color: $main-color;
+}
+
+.tile-img {
+    height: auto;
+    width: auto;
+}
+
+.parent {
+    display: flex;
+    height: 300px; /* Or whatever */
+}
+  
+.child {
+    width: 100px;  /* Or whatever */
+    height: 100px; /* Or whatever */
+    margin: auto;  /* Magic! */
+}
+
+.phone {
+    width: 320px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 300;
+    padding-left: 8px;
+    margin-left: 4px;
+}
+
+h2 {
+    font-size: 38px;
+    font-weight: 300;
+    padding-left: 8px;
+    margin-left: 4px;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 300;
+    padding-left: 8px;
+    margin-left: 4px;
+}
+
+h4 {
+    font-size: 22px;
+    font-weight: 300;
+    padding-left: 8px;
+    margin-left: 4px;
+}
+
+a {
+    color: white;
+    text-decoration: none
+}
+
+button {
+    border: none;
+    border: 5px solid #007094;
+    border-radius: 17px;
+    background-color: #007094;
+    color: white;
+}
+
+/*.button-shadow{              !EXPERIMENTAL AND NOT WORKING!
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}*/
+
+.text-floating {
+    text-shadow: 3px 5px 2px #474747, 2px 2px 2px rgba(206,89,55,0);
+    color: #FFFFFF;
+    /* background: #007094; */
+}
+
+.tile.tile-shadow {
+    -webkit-box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(0,0,0,0);
+    background: #007094;
+}
+
+.tile.tile-greenshadow {
+    -webkit-box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: inset -1px 3px 8px 5px #00B500, 2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(0,0,0,0);
+    background: #009C00;
+}
+
+.tile.lightblue {
+    background-color: #00B3ED;
+}
+
+.tile.green{
+    background-color: #009C00;
+}
+
+.tile.red {
+    background-color: #9C0000;
+}
+
+.tile.yellow {
+    background-color: #FFC300;
+    color: black;
+}
+
+/* .tile.tile-img {
+    
+}*/
+
+.tile.x1 {
+    width: 10rem;
+}
+
+.tile.x2 {
+    width: 20rem;
+}
+
+.tile.x4 {
+    width: 40rem;
+}
+
+.tile.y1 {
+    height: 10rem;
+}
+
+.tile.y2 {
+    height: 20rem;
+}
+ 
